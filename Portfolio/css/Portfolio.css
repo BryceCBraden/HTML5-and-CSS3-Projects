@@ -1,0 +1,36 @@
+/* Body */
+body {
+    margin: 0%; /* Displays to edge of screen */
+}
+
+/* Navbar */
+.Navbar {
+    overflow: hidden; /* Keeps content from extending past navbar */
+    background-color: rgb(184, 176, 176);
+    position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
+    top: 0; /* This ensures no space is displayed above the navbar */
+    width: 100%; /* This makes the navbar span the entire width of the page */
+    z-index: 1; /*This ensures other elements don't display over the navbar */
+}
+
+/* Navbar text */
+.Navbar a {
+    float: left; /* This specifies that the text floats on the left on the navbar */
+    display: block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
+    color: black;
+    padding: 14px 16px; /* This adds padding around our text */
+    text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
+    font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
+    font-size: 20px; /* This specifies the font size for text on our navbar */
+    text-align: center; /* This centers the text within its container */
+}
+
+.Navbar a:hover {
+    background-color: black;
+    color: rgb(83, 83, 83);
+    font-weight: bold; /* This makes the text on the navbar bold when hovered over */
+}
+
+/* Navbar home button */
+.Navbar a.active { /* The active selector styles a link */
+        background-color: 
